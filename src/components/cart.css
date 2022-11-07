@@ -1,0 +1,70 @@
+button {
+  cursor: pointer;
+}
+.cartmain {
+  width: 90vw;
+}
+.addcart-main {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10px auto;
+}
+.addcart-buttons {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.addcart-image {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.logo6 {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  margin-right: 50px;
+  animation: rotation 20s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ordernow {
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: end;
+}
+.order {
+  padding: 5px 15px;
+  background-color: rgb(50, 177, 50);
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.adelete {
+  background-color: #f59e0d;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: large;
+}
+.apm {
+  background-color: #f59e0d;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 10px;
+}
